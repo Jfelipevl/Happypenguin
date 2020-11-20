@@ -6,11 +6,10 @@
 
 body {
     background-color:aqua;
-    b
     color: #0000000
 font-size: 16px;
 font-family: 'Modak', cursive;
-
+font-size: 16px;
 }
 
 a {
@@ -142,8 +141,45 @@ ul {
    }
 
 
+  .social {
+      margin: 50px;
+  }
+  
+  .social p {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
 
+.Links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.Links a {
+    margin: 0 30px;
+}
 
+.Links a i {
+    font-size: 3rem;
 
+}
 
+.Links h2:hover { 
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.Links h4:hover { 
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: black;
+    color: white;
+    justify-content: center;
+    margin right: 10px;;
+}
